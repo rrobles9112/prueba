@@ -6,13 +6,10 @@ import {FooterComponent} from './footer/footer.component';
   templateUrl: './app.component.html',
   styleUrls: ['./../assets/css/foundation.css','app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent{
   title = 'app works!';
-
-  public ngOnInit() {
-
-
-  }
+  
+  
 
 }
 
